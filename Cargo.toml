@@ -5,3 +5,6 @@ members = [
     "tokio-rustls/examples/client",
     "tokio-rustls/examples/server"
 ]
+
+[patch.crates-io]
+rustls = { git = 'https://github.com/johanvos/rustls', branch = 'ech-15' }
